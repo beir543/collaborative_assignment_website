@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				<meta name="description" content="">
+					<meta name="author" content="">
+
+						<title>AssignmentFun</title>
+
+						<!-- Bootstrap core CSS -->
+						<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+						
+						<!-- Custom CSS -->
+						<link href="mystyle.css" rel="stylesheet">
+
+							<!-- Bootstrap core JavaScript -->
+							<script src="vendor/jquery/jquery.min.js"></script>
+							<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+							<!-- Custom JavaScript -->
+							<script src="vendor/scripts/custom.js"></script>
+
+							<!-- Icons from fontawesome.com -->
+							<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+
+
+								<!-- Custom styles for this template -->
+								<style>
+									body {
+									padding-top: 60px;
+									}
+									@media (min-width: 992px) {
+									body {
+									padding-top: 60px;
+									overflow-x: scroll;
+									}
+									}
+
+								</style>
+
+							</head>
+
+							<body>
+								<!-- Navigation -->
+								<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+									<a class="navbar-brand" href="#">AssignmentFun</a>
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+									<div class="collapse navbar-collapse" id="navbarResponsive">
+										<ul class="navbar-nav ml-auto">
+											<li class="nav-item active">
+												<a class="nav-link" href="index.html">Home
+													<span class="sr-only">(current)</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">Past Assignments</a>
+											</li>
+											<li class="nav-item">
+												<div class="btn-group">
+													<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<i class="far fa-user-circle fa-lg"></i>
+													</button>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#">Account</a>
+														<a class="dropdown-item" href="#">Settings</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Logout</a>
+													</div>
+												</div>
+											</li>
+
+										</ul>
+
+									</div>
+
+								</nav>
+
+
+
+
+								<!-- <div class="container"> -->    
+								<!-- Page Content -->
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-lg-10">
+											<nav class="col-lg-10">
+
+												<ul class="nav nav-tabs" role="tablist">
+													<li class="nav-item">
+														<a class="nav-link active" href="dashboard.html" target="iframe_a">Assignment Specifications</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" href="submission.html" target="iframe_a" data-toggle="tooltip" data-placement="bottom" title="New comments added">Your Submission <span class="badge badge-danger">4</span></a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" href="member.html" target="iframe_a" data-toggle="tooltip" data-placement="bottom" title="New comments added">Peer Submissions <span class="badge badge-danger">1</span></a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+
+									<div class="row">
+
+										<!-- Assignment Specs -->
+										<div class="col-lg-10 text-center my-3">
+											<iframe style="border:none;" height="750" width="100%" src="dashboard.html" name="iframe_a"></iframe>
+										</div>
+
+
+
+
+										<!-- Right Side Widget -->
+										<div class="col-lg-2">
+											<!-- <iframe style="border:none;" height="600px" width="100%" src="aside.html" name="iframe_a"></iframe> -->
+
+
+											<!-- Peer List -->
+											<div class="card" style="width: 18rem;">
+												<div class="card-header bg-success text-white">
+													Peer List
+												</div>
+												<ul class="list-group list-group-flush">
+
+
+													<li class="list-group-item">
+														<a href="#" data-toggle="modal" data-target="#chatModal" >
+															Adam West<span class="badge badge-danger float-right">1 <i class="fas fa-envelope"></i></span>
+														</a>
+													</li>
+
+													<li class="list-group-item">
+														<a href="#" data-toggle="modal" data-target="#chatModal" >
+															Brock Boseman
+														</a>
+													</li>
+
+
+													<li class="list-group-item">
+														<a href="#" data-toggle="modal" data-target="#chatModal" >
+															Julie Anderson<span class="badge badge-danger float-right">4 <i class="fas fa-envelope"></i></span>
+														</a>
+													</li>
+
+													<li class="list-group-item">
+
+														<a href="#" data-toggle="modal" data-target="#chatModal" >
+															Morty Smith
+														</a>
+													</li>
+
+													<li class="list-group-item">
+														<a href="#" data-toggle="modal" data-target="#chatModal" >
+															Peter Kitchener
+														</a>
+													</li>
+
+													<li class="list-group-item">
+														<a href="#" data-toggle="modal" data-target="#chatModal" >
+															Toni Durk
+														</a>
+
+													</li>
+
+												</ul>
+											</div>
+
+
+											<!-- Chat/Call -->
+											<div class="card my-3" height="60px">
+												<div class="card-header nav-fill">
+													<ul class="nav nav-tabs card-header-tabs">
+														<li class="nav-item">
+															<a class="nav-link active text-white" data-toggle="tab" href="#chat">Chat</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link text-white" data-toggle="tab" href="#call">Voice</a>
+														</li>
+													</ul>
+												</div>
+
+
+												<!-- Tab panes -->
+												<div class="tab-content">
+													<div id="chat" class="container tab-pane active"><br>
+															<form>
+																<div class="form-group">
+																	<footer class="blockquote-footer"><small>Adam West</small></footer>
+
+																	<p id="recipient-name" class="rounded bg-light d-inline px-2 py-1 float-left">What does it mean by x?</p> 
+																	<br>
+																		<br>
+																			<p class="rounded text-white bg-info d-inline px-2 py-1 float-right">It means you have to do yyy</p>
+																			<br>
+																				<br>
+																					<footer class="blockquote-footer"><small>Adam West</small></footer>
+																					<p id="recipient-name" class="rounded bg-light d-inline px-2 py-1 float-left">Sweet, thank you</p>
+																					<br>
+																						<br>
+																							<footer class="blockquote-footer"><small>Peter Kitchener</small></footer>
+																							<p class="rounded bg-light d-inline px-2 py-1 float-left">When is this due?</p>
+																							<br>
+																								<br>
+																								</div>
+																								<div class="form-group">
+																									<label for="message-text" class="col-form-label">Message:</label>
+																									<input class="form-control" id="message-text"></input>
+																								</div>
+																							</form>
+
+																						</div>
+
+																						<div id="call" class="container tab-pane"><br>
+																								<p>Currently in call: </p>
+																								<ul class="list-unstyled">
+																									<li>Adam West</li>
+																									<li>Julie Anderson</li>
+																									<li>Morty Smith</li>
+																								</ul>
+																								<br>
+																								<br>
+
+
+																								<div class="btn-toolbar float-left" role="toolbar" aria-label="Toolbar with button groups">
+																									<div class="btn-group mr-2" role="group" aria-label="First group">
+																										<button type="button" class="btn btn-success btn-sm">Join Call</button>
+
+																									</div>
+																									<div class="btn-group mr-2" role="group" aria-label="Second group">
+																										<button type="button" class="btn btn-dark btn-sm" data-toggle="tooltip" data-placement="top" title="Mute"><i class="fas fa-microphone"></i></button>
+																										<button type="button" class="btn btn-dark btn-sm" data-toggle="tooltip" data-placement="top" title="Deafen"><i class="fas fa-headphones"></i></button>
+																									</div>
+																								</div>
+
+																							</div>
+																						</div>
+																					</div>	
+																				</div>
+																			</div>
+
+
+																			<!-- Chat Modal -->
+																			<div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+																				<div class="modal-dialog" role="document">
+																					<div class="modal-content">
+																						<div class="modal-header">
+																							<h5 class="modal-title" id="exampleModalLabel">Private Message with XXX</h5>
+																							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																								<span aria-hidden="true">&times;</span>
+																							</button>
+																						</div>
+																						<div class="modal-body">
+																							<form>
+																								<div class="form-group">
+																									<p id="recipient-name" class="text-primary">XXX: Hey </p> 
+																									<p>you: Hi there</p>
+																									<p id="recipient-name" class="text-primary ">XXX: How are you finding the assignment?</p>
+																									<p>you: Not too bad, how about you?</p>
+																								</div>
+																								<div class="form-group">
+																									<label for="message-text" class="col-form-label">Message:</label>
+																									<textarea class="form-control" id="message-text"></textarea>
+																								</div>
+																							</form>
+																						</div>
+																						<div class="modal-footer">
+																							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+																							<button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+
+																		</div>
+
+
+
+																	</body>
+
+																</html>
+																
